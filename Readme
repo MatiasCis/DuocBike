@@ -1,9 +1,13 @@
-yarn add react-router-dom@6
+#Proyecto de asignatura de Gestion agil, donde con mi grupo de trabajo, realizamos un sistema capaz de gestionar el estacionamiento de bicicletas en la sede Duoc Maipu.
 
-yarn add @reduxjs/toolkit react-redux
+Esta realizado con el stack de desarrollo MEAN
 
-axios
+npm install
 
-yarn add axios
+npm run dev
 
-yarn add sweetalert2
+##Pagina Web para vistiar
+
+#https://duocbike.onrender.com
+
+usuario:pedro contraseña:pedro15
