@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.body1 {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 190px;
+    background-image: url('/assets/ola.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.container1 {
+    border-radius: 5px;
+    box-shadow: 7px 13px 37px;
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    background-color: white;
+}
+
+.img1 {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+
+/* .header{
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+
+.header h2 {
+	margin: 0;
+} */
+
+.h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form1 {
+    padding: 30px 40px;
+}
+
+.form-control1 {
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    position: relative;
+    border: 0;
+}
+
+.form-control1 input {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control1 input:focus {
+    outline: 0;
+    border-color: #000000;
+}
+
+.form1 button {
+    background-color: rgba(255, 184, 0, 1);
+    font-weight: bold;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 3px rgba(85, 95, 224, 0.15);
+}
+
+.obli1 {
+    color: red;
+}
+
+.input,
+.textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: 1px solid #d3d6e4;
+    margin-top: -25px;
+    background-color: rgba(255, 184, 0, 1);
+    font-weight: bold;
+    padding: 0.25em 0.6em;
+    border-radius: 0.3rem;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(85, 95, 224, 0.15);
+    width: 30%;
+}
+
+.icono1 {
+    padding-left: 9px;
+    margin-bottom: -9px;
+}
+
+.fondo{
+    width: 100%;
+    background-image: url(/assets/ola.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.copy{
+    text-align: center;
+    padding-top: 130px;
+    padding-left: 50px;
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+}
+
+.logo {
+    width: 120px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.error2{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    
+    font-weight: bold;
+    font-size: 14px;
+}

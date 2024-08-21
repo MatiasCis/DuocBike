@@ -1,0 +1,29 @@
+.fondoGuardList{
+
+    width: 100%;
+    background-image: url(/assets/ola.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+
+}
+
+.body5{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    padding-bottom: 250px;
+}
+
+.logogestion {
+    width: 120px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 600px;
+  }

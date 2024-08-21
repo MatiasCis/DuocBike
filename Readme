@@ -1,0 +1,9 @@
+yarn add react-router-dom@6
+
+yarn add @reduxjs/toolkit react-redux
+
+axios
+
+yarn add axios
+
+yarn add sweetalert2

@@ -1,0 +1,45 @@
+.container9 {
+    border-radius: 5px;
+    box-shadow: 7px 13px 37px;
+    overflow: hidden;
+    width: 100rem;
+    background-color: white;
+    margin: auto;
+}
+
+
+
+.fondo9{
+    width: 100%;
+    background-image: url(/assets/ola.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+
+.body9 {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    padding-bottom: 250px;
+}
+
+.form9 {
+    padding: 0px 10px;
+}
+
+.logoIngreso{
+    width: 120px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top:800px;
+
+}
+

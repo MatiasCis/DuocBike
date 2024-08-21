@@ -1,0 +1,10 @@
+.listaVisita{
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 7px 13px 37px;
+    overflow: hidden;
+    width: 1000px;
+    max-width: 100%;
+    background-color: white;
+
+}

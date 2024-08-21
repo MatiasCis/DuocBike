@@ -1,0 +1,165 @@
+
+@font-face {
+  font-family: 'Digital-7';
+  src: url('/assets/digital-7.ttf') format('truetype');
+}
+
+
+
+
+
+.main-container {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(/assets/ola.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+
+.nuevoIngreso {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.form-control-ingreso {
+  border: 1px solid black;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+
+
+}
+
+.btn-1 {
+    background-color: rgba(255, 184, 0, 1);
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 26px;
+    margin-left: 20px;
+    width: 40%;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 3px rgba(85, 95, 224, 0.15);
+}
+
+
+.datosAlumno{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: 1px solid #d3d6e4;
+    background-color: rgba(255, 184, 0, 1);
+    font-weight: bold;
+    padding: 0.25em 0.6em;
+    border-radius: 0.3rem;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(85, 95, 224, 0.15);
+
+  
+
+}
+
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .datosAlumnoForm{
+    border-radius: 5px;
+    box-shadow: 7px 13px 37px;
+    overflow: hidden;
+    width: 500px;
+    max-width: 100%;
+    background-color: white;
+
+    border:1px solid black
+  }
+
+  .datosAlumnoForm input:focus{
+    outline: 0;
+    border-color: #000000;
+  }
+
+
+  
+  .contador1 {
+    padding-top:25px;
+    border: 2px solid black;
+    height: 200px;;
+    background-color: rgba(255, 184, 0, 1);
+    color: white;
+    border-radius: 30px;
+    margin-left: 30px
+    
+   
+  }
+
+  .contador2 {
+    padding-top:25px;
+    border: 2px solid black;
+    height: 200px;;
+    background-color: rgba(255, 184, 0, 1);
+    color: white;
+    border-radius: 30px;
+    
+   
+  }
+  
+  .contador1 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+    
+  }
+  .contador2 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+    
+  }
+  
+  .contador1 .valor {
+    font-family: 'Digital-7', sans-serif;
+    font-size: 100px;
+    color: white;
+    background-color: rgba(255, 184, 0, 1);
+    height: 100px;  
+    text-align: center;
+    
+    
+  }
+  .contador2 .valor {
+    font-family: 'Digital-7', sans-serif;
+    font-size: 100px;
+    color: white;
+    background-color: rgba(255, 184, 0, 1);
+    height: 100px;  
+    text-align: center;
+    
+    
+  }
+
+  .logoformulario {
+    width: 120px;
+    position: absolute;
+    margin-left: -520px;
+    margin-top: 300px;
+}
+
+
